@@ -11,7 +11,7 @@ def trackBitcoin():
 
     labelPrice.config(text = str(price) + " $")
     labelTime.config(text= "Updated at: " + time)
-    labelName.config(text= "@Username here")
+    labelName.config(text= "usayd-l")
     
     canvas.after(1000, trackBitcoin)
 
