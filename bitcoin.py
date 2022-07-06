@@ -7,7 +7,7 @@ def trackBitcoin():
     url = "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD"
     response = requests.get(url).json()
     price = response["USD"]
-    time = datetime.now().strftime("%H:%M")
+    time = datetime.now().strftime("%H:%M:%S")
 
     labelPrice.config(text = str(price) + " $")
     labelTime.config(text= "Updated at: " + time)
