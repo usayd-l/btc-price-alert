@@ -1,2 +1,6 @@
-# btc-price-alert-
-Bitcoin price updated every second. Built using python.
+# BTC Price Alert
+Bitcoin price updated every second. Built using python. 
+
+packages used: requests, tkinter
+
+
